@@ -1,0 +1,101 @@
+/*
+Theme Name: nonbaohiem-child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+a.button.primary{
+	margin: 0;
+	font-size: 13px;
+}
+.header-nav-main input.search-field {
+	background: #312f2e;
+    border-color: #312f2e;
+    height: 50px;
+ }
+.header-nav-main .submit-button{
+	width: 50px;
+    height: 50px;
+}
+.product-small .price-wrapper{padding:20px 0;}
+.footer__rz-divider{
+    border-top: 1px solid #312f2e; text-align: center;
+}
+.footer__rz-logo {
+    position: relative;
+    top: -22px;
+    background-color: #151211;
+}
+.footer__rz-logo {
+    height: 45px;
+    width: 101px;
+}
+.absolute-footer .container {
+	border-top: 1px solid #312f2e;
+	padding-top: 15px
+}
+#footer .is-divider {
+	height: 0px;
+}
+#footer .dark ul.menu>li+li a{
+	padding:2px 0 !important
+}
+#footer .dark ul.menu>li+li, #footer .dark .widget>ul>li+li {
+    border-color: rgba(0,0,0,0);
+}
+#footer a{color: #8f8e8d;}
+.price-wrapper .price {padding:15px 0;}
+.footer {padding-top: 50px}
+@media screen and (max-width: 849px) {
+	#footer, #footer .social-icons,#footer h3, #footer p{text-align: center !important;}
+	#footer ul.menu>li, .widget>ul>li{display: inline-block;}
+}
+.doitac .wpsisac-slick-carousal .slick-image-slide {
+    margin: 0 10px;
+}
+.wpsisac-slick-carousal.design-6{margin-bottom: 0}
+.product-short-description li {margin-bottom: 0}
+.single-product h1.product-title.entry-title{
+    color: #fa4c06;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: italic;
+}
+.single-product .product-info{
+    border: 1px dashed #ddd
+}
+.product-info {
+    padding-top: 30px;
+}
+.single-product .product-gallery .product-images {
+    border: 1px dashed #ddd !important;
+}
+.sidebar-inner .widget-title{
+        display: block;
+    background: #fa4c06;
+    padding: 10px;
+    color: #fff;
+        width: calc(100% + 30px);
+    margin-left: -15px !important;
+}
+.sidebar-inner .widget  {
+        background: #f5f5f5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sidebar-inner ul.product-categories li,.sidebar-inner ul.product-categories li a{    transition: all 0.9s ease;}
+.sidebar-inner ul.product-categories li:hover a{
+        padding-left: 10px;
+    transition: all 0.9s ease;
+    color: #fa4c06;
+}
